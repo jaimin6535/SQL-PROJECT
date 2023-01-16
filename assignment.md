@@ -1,7 +1,7 @@
 Follow the instructions below to complete this project.
 
 ## Part 1: Loading csv Files into Database
-
+MGJ,
 Create a new PostgreSQL database called `ecommerce`. Set up tables for each .csv file by following [these instructions](https://www.postgresqltutorial.com/postgresql-tutorial/import-csv-file-into-posgresql-table/)
 
 > #### Note
@@ -51,8 +51,10 @@ In the **QA.md** file, identify and describe your risk areas. Develop and execut
 
 Inside pgAdmin, you can generate the ERD for the database. 
 
-![](https://i.imgur.com/KxVRJD3.png)
+![alt desc] (Videos/SQL-PROJECT/schema.png)
+
 
 Download the image and save it as **schema.png**. Add this file to your repo for submission.
 
 Note: If you have created any new tables, be sure to load them into the database before printing the ERD!
+
