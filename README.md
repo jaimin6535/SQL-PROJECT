@@ -1,17 +1,19 @@
 # Final-Project-Transforming-and-Analyzing-Data-with-SQL
 
 ## Project/Goals
-(fill in your description and goals here)
+ Find out sales revenue, total sales by each city and country.
 
 ## Process
-### (your step 1)
-### (your step 2)
+### First step is to observe the data.
+### Load the data
+### Transform the data
+### Get the result
 
 ## Results
-(fill in what you discovered this data could tell you and how you used the data to answer those questions)
-
+United States has highest Total revenue for Direct Channel grouping.There are three countries which has highest average total ordered.
 ## Challenges 
-(discuss challenges you faced in the project)
+Results may vary based on the blank value consideration (Replacement with average values).
 
 ## Future Goals
-(what would you do if you had more time?)
+Explore these data sets in more depth to gain more insights.
+
