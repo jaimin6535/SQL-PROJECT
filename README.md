@@ -4,10 +4,11 @@
 We have given data about Products , Sales report, Revenue , product category. We need to identify which data will be useful to get more insights about most sold products, most revenue generated cities/Countries and product Category.
 
 ## Process
-  1.First step is to observe the data
-  2.Load the data
-  3.Transform the data
-  4.Get the result
+  1. First step is to observe the data
+  2. Load the data
+  3. Make the relation between tables
+  4. Transform the data
+  5. Get the result
 
 ## Results
 United States has highest Total revenue for Direct Channel grouping.There are three countries which has highest average total ordered.
