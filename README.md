@@ -23,9 +23,7 @@ Explore these data sets in more depth to gain more insights about how to increas
 
 ## Here is the SQL Query
 
-1.
-
-```SELECT
+1.```SELECT
 country, city,totalrevenue,channelgrouping 
 FROM jaimin.all_sessions 
 WHERE channelgrouping='Direct' AND totalrevenue is not null AND city is not null AND country is not null
