@@ -12,16 +12,6 @@ We have given data about Products , Sales report, Revenue , product category. We
 ## Results
 United States has highest Total revenue for Direct Channel grouping.There are three countries which has highest average total ordered.
 
-## Here is the SQL Query
-
-1.
-
-```SELECT
-country, city,totalrevenue,channelgrouping 
-FROM jaimin.all_sessions 
-WHERE channelgrouping='Direct' AND totalrevenue is not null AND city is not null AND country is not null
-ORDER BY totalrevenue DESC ; ```
-
 ## Challenges 
   1. Identify correct Data types
   2. Identify required Data
@@ -30,4 +20,16 @@ ORDER BY totalrevenue DESC ; ```
 
 ## Future Goals
 Explore these data sets in more depth to gain more insights about how to increase sales, how to make future prediction of sales trend.
+
+## Here is the SQL Query
+
+1.
+
+```SELECT
+country, city,totalrevenue,channelgrouping 
+FROM jaimin.all_sessions 
+WHERE channelgrouping='Direct' AND totalrevenue is not null AND city is not null AND country is not null
+ORDER BY totalrevenue DESC ;
+
+
 
