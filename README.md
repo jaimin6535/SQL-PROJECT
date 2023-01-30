@@ -28,19 +28,22 @@ Explore these data sets in more depth to gain more insights about how to increas
 
 1.
 
-```SELECT
+```
+SELECT
 country, city,totalrevenue,channelgrouping 
 FROM all_sessions 
 WHERE channelgrouping='Direct' AND totalrevenue is not null AND city is not null AND country is not null
 ORDER BY totalrevenue DESC ;
+```
 
 2.
-
-```SELECT
+``` 
+SELECT
 a.country,a.city,s.name,(s.total_ordered) from jaimin.all_sessions  a 
 LEFT JOIN sales_report s on a.productsku =s.productsku
 GROUP BY(s.name),(s.total_ordered),a.city,a.country
 HAVING (S.total_ordered) >0
-ORDER BY(s.total_ordered) DESC ,s.name,a.city DESC,a.country DESC
+ORDER BY(s.total_ordered) DESC ,s.name,a.city DESC,a.country DESC ;
+```
 
 
